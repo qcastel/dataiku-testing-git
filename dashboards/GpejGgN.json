@@ -1,0 +1,38 @@
+{
+  "pages": [
+    {
+      "id": "nLIf3Y0",
+      "grid": {
+        "tiles": []
+      },
+      "showTitle": false
+    }
+  ],
+  "owner": "admin",
+  "listed": true,
+  "name": "sc138172\u0027s default dashboard",
+  "showGrid": true,
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1687444036921,
+    "extendedProperties": {}
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1687444036921,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "customFields": {
+    "pb": true
+  },
+  "checklists": {
+    "checklists": []
+  }
+}
