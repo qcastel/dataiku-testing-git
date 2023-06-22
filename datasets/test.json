@@ -29,11 +29,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1687446676689,
+    "lastModifiedOn": 1687446718953,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -62,7 +62,39 @@
     "numPartitions": -1
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {"name":"salesid","type":"bigint"},
+      {"name":"saleprice","type":"bigint"},
+      {"name":"machineid","type":"bigint"},
+      {"name":"modelid","type":"bigint"},
+      {"name":"datasource","type":"bigint"},
+      {"name":"auctioneerid","type":"bigint"},
+      {"name":"yearmade","type":"bigint"},
+      {"name":"machinehourscurrentmeter","type":"bigint"},
+      {"name":"usageband","type":"string","maxLength":1000},
+      {"name":"saledate","type":"string","maxLength":1000},
+      {"name":"fimodeldesc","type":"string","maxLength":1000},
+      {"name":"fibasemodel","type":"string","maxLength":1000},
+      {"name":"fisecondarydesc","type":"string","maxLength":1000},
+      {"name":"fimodelseries","type":"string","maxLength":1000},
+      {"name":"fimodeldescriptor","type":"string","maxLength":1000},
+      {"name":"productsize","type":"string","maxLength":1000},
+      {"name":"fiproductclassdesc","type":"string","maxLength":1000},
+      {"name":"state","type":"string","maxLength":1000},
+      {"name":"drive_system","type":"string","maxLength":1000},
+      {"name":"enclosure","type":"string","maxLength":1000},
+      {"name":"forks","type":"string","maxLength":1000},
+      {"name":"ride_control","type":"string","maxLength":1000},
+      {"name":"stick","type":"string","maxLength":1000},
+      {"name":"transmission","type":"string","maxLength":1000},
+      {"name":"turbocharged","type":"string","maxLength":1000},
+      {"name":"engine_horsepower","type":"string","maxLength":1000},
+      {"name":"hydraulics","type":"string","maxLength":1000},
+      {"name":"tire_size","type":"string","maxLength":1000},
+      {"name":"track_type","type":"string","maxLength":1000},
+      {"name":"undercarriage_pad_width","type":"string","maxLength":1000},
+      {"name":"stick_length","type":"string","maxLength":1000}
+    ],
     "userModified": true
   },
   "dkuProperties": [],
