@@ -29,11 +29,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1687504484310,
+    "lastModifiedOn": 1687504496927,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -63,7 +63,12 @@
     "numPartitions": -1
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {"name":"orderkey","type":"bigint","originalType":"bigint"},
+      {"name":"orderstatus","type":"string","originalType":"varchar","maxLength":1000},
+      {"name":"totalprice","type":"double","originalType":"double"},
+      {"name":"orderdate","type":"date","originalType":"date","timestampNoTzAsDate":true}
+    ],
     "userModified": true
   },
   "dkuProperties": [],
