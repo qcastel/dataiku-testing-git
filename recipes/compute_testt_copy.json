@@ -59,7 +59,7 @@
     "main": {
       "items": [
         {
-          "ref": "testt",
+          "ref": "startburst-sc-138172",
           "deps": []
         }
       ]
@@ -77,11 +77,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1687504576344,
+    "lastModifiedOn": 1687504652266,
     "extendedProperties": {}
   },
   "creationTag": {
