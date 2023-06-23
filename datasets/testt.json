@@ -29,11 +29,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1687504455599,
+    "lastModifiedOn": 1687504484310,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -51,6 +51,7 @@
     "mode": "table",
     "partitioningType": "custom",
     "normalizeDoubles": true,
+    "catalog": "dssrdtest1",
     "table": "test__________sc138172",
     "schema": "dataiku2starbust",
     "tableCreationMode": "auto",
