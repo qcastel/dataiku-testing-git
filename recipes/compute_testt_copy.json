@@ -69,7 +69,7 @@
     "main": {
       "items": [
         {
-          "ref": "testt_copy",
+          "ref": "startburst-sc-138172-managed",
           "appendMode": false
         }
       ]
@@ -77,11 +77,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1687504652266,
+    "lastModifiedOn": 1687504661056,
     "extendedProperties": {}
   },
   "creationTag": {
