@@ -29,11 +29,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1687506021516,
+    "lastModifiedOn": 1687506041024,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -51,6 +51,7 @@
     "mode": "table",
     "partitioningType": "custom",
     "normalizeDoubles": false,
+    "catalog": "dssrdtest1",
     "table": "bbbulldozer_full_prepared",
     "schema": "dataiku_fch",
     "tableCreationMode": "auto",
