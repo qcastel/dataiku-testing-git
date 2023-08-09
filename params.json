@@ -76,7 +76,8 @@
       }
     },
     "container": {
-      "containerMode": "INHERIT"
+      "containerMode": "EXPLICIT_CONTAINER",
+      "containerConf": "eks-default"
     },
     "datasetsCreationSettings": {
       "useGlobal": true,
@@ -196,6 +197,14 @@
     "displayedState": {
       "checks": []
     }
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1691568265858,
+    "extendedProperties": {}
   },
   "creationTag": {
     "versionNumber": 0,
