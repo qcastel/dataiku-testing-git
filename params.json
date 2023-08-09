@@ -142,7 +142,7 @@
     },
     "dkuProperties": []
   },
-  "name": "test",
+  "name": "test (blop)",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -199,11 +199,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1691570152117,
+    "lastModifiedOn": 1691570154444,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -214,7 +214,7 @@
     "lastModifiedOn": 1691566218572,
     "extendedProperties": {}
   },
-  "shortDesc": "The project *test* was created by Administrator on Aug 09th 2023",
+  "shortDesc": "The project *test* was created by Administrator on Aug 09th 2023\nThe project *TEST_BLOP* was copied from *TEST* by Administrator on Aug 09th 2023",
   "tags": [
     "duplicated"
   ],
