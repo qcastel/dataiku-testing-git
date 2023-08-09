@@ -1,0 +1,27 @@
+[
+  {
+    "execSQLLike": false,
+    "localDatasets": [],
+    "projectPrivileges": {
+      "admin": false,
+      "readProjectContent": false,
+      "writeProjectContent": false,
+      "exportDatasetsData": false,
+      "readDashboards": false,
+      "writeDashboards": false,
+      "moderateDashboards": false,
+      "publishToDataCollections": false,
+      "shareToWorkspaces": false,
+      "runScenarios": false,
+      "manageDashboardAuthorizations": false,
+      "manageExposedElements": false,
+      "manageAdditionalDashboardUsers": false,
+      "executeApp": false
+    },
+    "onBehalf": "CHvmRM5",
+    "id": "Nyan6WbnxSxEbYFl",
+    "key": "ogHfqScEhrnCqPEBhTTq6twaYWl8IltD",
+    "label": "Key for Web app test(CHvmRM5)",
+    "createdOn": 1691567846091
+  }
+]
