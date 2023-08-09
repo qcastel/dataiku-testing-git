@@ -143,7 +143,6 @@
     "dkuProperties": []
   },
   "name": "test",
-  "projectStatus": "Sandbox",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -200,11 +199,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1691570125028,
+    "lastModifiedOn": 1691570152117,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -216,7 +215,9 @@
     "extendedProperties": {}
   },
   "shortDesc": "The project *test* was created by Administrator on Aug 09th 2023",
-  "tags": [],
+  "tags": [
+    "duplicated"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": [
