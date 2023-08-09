@@ -2,7 +2,7 @@
   "type": "STANDARD",
   "hasLegacyBackendURL": false,
   "params": {
-    "backendEnabled": false,
+    "backendEnabled": true,
     "enableJavascriptModules": false,
     "autoStartBackend": false,
     "hideJSSecurityPanel": false,
@@ -16,7 +16,8 @@
     ],
     "infra": {
       "containerSelection": {
-        "containerMode": "INHERIT"
+        "containerMode": "EXPLICIT_CONTAINER",
+        "containerConf": "eks-default"
       },
       "overrideGlobalK8sExposition": false,
       "exposition": {
@@ -43,11 +44,11 @@
   "name": "test",
   "apiKey": "ogHfqScEhrnCqPEBhTTq6twaYWl8IltD",
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1691567846097,
+    "lastModifiedOn": 1691567860319,
     "extendedProperties": {}
   },
   "creationTag": {
