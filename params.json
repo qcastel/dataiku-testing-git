@@ -224,6 +224,14 @@
       "checks": []
     }
   },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1701685658615,
+    "extendedProperties": {}
+  },
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
