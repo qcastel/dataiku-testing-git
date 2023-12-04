@@ -2,14 +2,6 @@
   "type": "step_based",
   "name": "testest",
   "active": false,
-  "creationTag": {
-    "versionNumber": 0,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1701685244401,
-    "extendedProperties": {}
-  },
   "checklists": {
     "checklists": []
   },
@@ -22,7 +14,26 @@
   "triggers": [],
   "reporters": [],
   "params": {
-    "steps": []
+    "steps": [
+      {
+        "id": "bundle null",
+        "type": "prepare_bundle",
+        "name": "Step #1",
+        "runConditionType": "RUN_IF_STATUS_MATCH",
+        "runConditionStatuses": [
+          "SUCCESS",
+          "WARNING"
+        ],
+        "runConditionExpression": "",
+        "resetScenarioStatus": false,
+        "delayBetweenRetries": 10,
+        "maxRetriesOnFail": 0,
+        "params": {
+          "transmogrify": false,
+          "publishOnDeployer": false
+        }
+      }
+    ]
   },
   "automationLocal": false,
   "customFields": {}
