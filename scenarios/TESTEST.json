@@ -29,7 +29,7 @@
         "delayBetweenRetries": 10,
         "maxRetriesOnFail": 0,
         "params": {
-          "bundleId": "blop",
+          "bundleId": "toto",
           "transmogrify": true,
           "publishOnDeployer": false
         }
